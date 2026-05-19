@@ -220,8 +220,7 @@ int main()
 
     glDeleteProgram(shaderProgram);
 
-    glfw
-    Terminate();
+    glfwTerminate();
 
     return 0;
 }
@@ -243,5 +242,4 @@ void framebuffer_size_callback(
 )
 {
     glViewport(0, 0, width, height);
-
 }
